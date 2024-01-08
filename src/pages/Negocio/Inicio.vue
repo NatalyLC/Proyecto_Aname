@@ -219,7 +219,7 @@
 }
 
 #contenido {
-  background-color: #fff2f1;
+  background-color: #f1fdff;
   padding-bottom: 30px;
   padding-top: 30px;
   padding-left: 120px;
