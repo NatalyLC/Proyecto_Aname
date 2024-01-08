@@ -244,7 +244,7 @@
 }
 
 #contenido {
-  background-color: #f1fdff;
+  background-color: #ffffff;
   padding-bottom: 30px;
   padding-top: 30px;
   padding-left: 120px;
