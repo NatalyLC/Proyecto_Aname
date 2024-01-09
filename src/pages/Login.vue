@@ -127,7 +127,7 @@ export default {
 }
 
 #login {
-  width: 500px;
+  width: auto;
   margin: auto;
   background-color:white;
   /* margin: 70px auto; */
@@ -151,6 +151,13 @@ h2 {
   margin-bottom: 20px;
   text-align: center;
   color: #003153;
+}
+
+@media (min-width: 320px) {
+  #fondoPag {
+    padding-left: auto;
+    padding-right: auto;
+  }
 }
 
 /* button {

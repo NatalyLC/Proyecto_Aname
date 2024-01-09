@@ -194,15 +194,22 @@ export default {
 </script>
 <style scoped>
 #cont {
-  width: 40%;
-  margin: 20px auto;
+  width: auto;
+  margin: 30px auto;
   background-color: #fff2f1;
   border: 5px solid #003153;
   border-radius: 12px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
+}
+
+@media (min-width: 320px) {
+  #cont {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 h2 {
